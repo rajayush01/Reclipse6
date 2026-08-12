@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
 import { useZoomReveal } from "@/hooks/useZoomReveal";
 
-/**
- * RECLIPSE — Featured Weddings & Elopements
- *
- * A staggered two-column gallery: the right column sits offset lower than
- * the left, so the eye travels down in a gentle zig-zag rather than a rigid
- * grid. Every photograph shares the hero's scroll-tied reveal — small and
- * invisible at rest, growing to full scale and opacity as it enters view,
- * in either scroll direction.
- */
+import w1 from "../assests/w1.jpg";
+import w2 from "../assests/w2.jpg";
+import w3 from "../assests/w3.jpg";
+import w4 from "../assests/w4.jpg";
+import w5 from "../assests/w5.jpg";
+import w6 from "../assests/w6.jpg";
+import w7 from "../assests/w7.jpg";
+import w8 from "../assests/w8.jpg";
+
 
 interface WeddingEntry {
   image: string;
@@ -17,44 +17,49 @@ interface WeddingEntry {
   aspect: "portrait" | "landscape";
 }
 
+
 const LEFT_COLUMN: WeddingEntry[] = [
   {
-    image:
-      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=1000&auto=format&fit=crop",
-    caption: "Glencoe Elopement Photographer",
+    image: w1,
+    caption: "Indian Wedding Photography",
     aspect: "portrait",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=1200&auto=format&fit=crop",
-    caption: "Elopement In North Spain",
+    image: w2,
+    caption: "Traditional Indian Wedding",
     aspect: "landscape",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1000&auto=format&fit=crop",
-    caption: "Borthwick Castle Wedding Photographer",
+    image: w3,
+    caption: "Indian Bride Wedding Photography",
     aspect: "portrait",
+  },
+  {
+    image: w4,
+    caption: "Indian Wedding Couple",
+    aspect: "landscape",
   },
 ];
 
 const RIGHT_COLUMN: WeddingEntry[] = [
   {
-    image:
-      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1200&auto=format&fit=crop",
-    caption: "Gairnshiel Lodge Wedding Photography",
-    aspect: "landscape",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1000&auto=format&fit=crop",
-    caption: "Couple Photoshoot at Glencoe",
+    image: w5,
+    caption: "Indian Couple Photoshoot",
     aspect: "portrait",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
-    caption: "Eilean Shona Wedding Photography",
+    image: w6,
+    caption: "Indian Wedding Celebration",
+    aspect: "landscape",
+  },
+  {
+    image: w7,
+    caption: "Indian Bride Portrait",
+    aspect: "portrait",
+  },
+  {
+    image: w8,
+    caption: "Indian Wedding Ceremony",
     aspect: "landscape",
   },
 ];

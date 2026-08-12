@@ -7,7 +7,7 @@ const LINKS = [
   { label: 'Home', to: '/' },
   { label: 'About', to: '/about' },
   { label: 'Stories', to: '/stories' },
-  { label: 'Video', to: '/video' },
+  { label: 'Video', to: '/films' },
   { label: 'Elopement Guides', to: '/elopement-guides', hasDropdown: true },
   { label: 'Education', to: '/education', hasDropdown: true },
   { label: 'Contact', to: '/contact' },

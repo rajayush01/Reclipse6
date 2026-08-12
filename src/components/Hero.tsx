@@ -14,8 +14,8 @@ import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
 const NAV_LINKS = [
   { label: "Home", href: "#" },
   { label: "About", href: "#" },
-  { label: "Stories", href: "#" },
-  { label: "Video", href: "#" },
+  { label: "Stories", href: "/stories" },
+  { label: "Video", href: "/films" },
   { label: "Elopement Guides", href: "#", hasDropdown: true },
   { label: "Education", href: "#", hasDropdown: true },
   { label: "Contact", href: "#" },
@@ -23,14 +23,24 @@ const NAV_LINKS = [
 
 // Replace these with the studio's real photography — seeded placeholders
 // stand in so the crossfade behavior can be previewed immediately.
+// const LEFT_IMAGES = [
+//   "https://picsum.photos/seed/kitcheners-left-a/1400/1600",
+//   "https://picsum.photos/seed/kitcheners-left-b/1400/1600",
+// ];
+
+// const RIGHT_IMAGES = [
+//   "https://picsum.photos/seed/kitcheners-right-a/1400/1600",
+//   "https://picsum.photos/seed/kitcheners-right-b/1400/1600",
+// ];
+
 const LEFT_IMAGES = [
-  "https://picsum.photos/seed/kitcheners-left-a/1400/1600",
-  "https://picsum.photos/seed/kitcheners-left-b/1400/1600",
+  "https://images.squarespace-cdn.com/content/v1/6744250b81521d675423a80c/82a5e637-af1e-4d8f-90f8-aa5439aaa1c4/598920725_18551030698018841_9219789078788786437_n.jpg",
+  "https://images.zola.com/177a2cf3-dce8-4eb6-b286-453648d74d46",
 ];
 
 const RIGHT_IMAGES = [
-  "https://picsum.photos/seed/kitcheners-right-a/1400/1600",
-  "https://picsum.photos/seed/kitcheners-right-b/1400/1600",
+  "https://cdn.pixabay.com/photo/2021/12/23/04/35/bride-6888618_1280.jpg",
+  "https://images.openai.com/static-rsc-4/Be9qyY8oMsLV8rwF29UPO0dC22PM2t6eSKLqkyS13RcGMIcyzv7aKpGw_SQt5h773jo_Tx1Yt9aKDP5U_JoD5bIyVsTAw0ial21yKpoyx5KyVWOG9P7vSephScTJ9od-_CuPgbw3ryo9EWD6kMMWLsnteHzeK40pyNcNDedt2N9g52hpvu_r8OXaEKOitSyy?purpose=fullsize",
 ];
 
 // One shared clock for both panes. Two independent timers (even at the same
@@ -142,7 +152,7 @@ export default function KitchenersHero() {
               The
             </span>
             <span className="-mt-2 block text-[15vw] tracking-[0.02em] sm:text-[9vw] lg:text-[6.5vw]">
-              Kitcheners
+              Reclipse
             </span>
           </motion.h1>
         </div>

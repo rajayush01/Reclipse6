@@ -3,12 +3,13 @@ import { ArrowUp } from "lucide-react";
 import { useZoomReveal } from "@/hooks/useZoomReveal";
 
 
-const LEFT_IMAGE =
-  "https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1200&auto=format&fit=crop";
-const RIGHT_IMAGE =
-  "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1400&auto=format&fit=crop";
-const BG_STRIP =
-  "https://images.unsplash.com/photo-1441829266145-9c6892c4cbd7?q=80&w=1800&auto=format&fit=crop";
+import w1 from "../assests/w1.jpg";
+import w2 from "../assests/w2.jpg";
+import w3 from "../assests/w3.jpg";
+
+const LEFT_IMAGE = w1;
+const RIGHT_IMAGE = w2;
+const BG_STRIP = w3;
 
 export default function Intro() {
   const left = useZoomReveal();
@@ -60,7 +61,7 @@ export default function Intro() {
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             className="mb-6 font-sans text-[11px] tracking-[0.35em] text-[#6E6B64] sm:text-xs"
           >
-            SCOTLAND ELOPEMENT PHOTOGRAPHER
+            INDIAN PHOTOGRAPHER
           </motion.p>
 
           <motion.h1
@@ -80,7 +81,7 @@ export default function Intro() {
               </em>
             </span>
             <span className="block text-[13vw] sm:text-[6.5vw] lg:text-[80px] tracking-tight">
-              IN SCOTLAND &amp;
+              IN INDIA &amp;
             </span>
             <span className="block text-[13vw] sm:text-[6.5vw] lg:text-[80px] tracking-tight">
               ABROAD

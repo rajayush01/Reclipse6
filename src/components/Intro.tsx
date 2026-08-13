@@ -5,11 +5,11 @@ import { useZoomReveal } from "@/hooks/useZoomReveal";
 
 import w1 from "../assests/w1.jpg";
 import w2 from "../assests/w2.jpg";
-import w3 from "../assests/w3.jpg";
+// import w3 from "../assests/w3.jpg";
 
 const LEFT_IMAGE = w1;
 const RIGHT_IMAGE = w2;
-const BG_STRIP = w3;
+// const BG_STRIP = w3;
 
 export default function Intro() {
   const left = useZoomReveal();

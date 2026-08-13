@@ -2255,13 +2255,13 @@ const steps = [
    RECOGNITION
 ========================================================= */
 
-const recognitions = [
-  "FEATURED — INDIAN WEDDING PHOTOGRAPHY",
-  "FEATURED — DESTINATION WEDDING STORIES",
-  "EDITOR'S PICK — WEDDING PHOTOGRAPHY",
-  "FEATURED — CINEMATIC WEDDING FILMS",
-  "RECOGNISED — LUXURY WEDDING STORIES",
-];
+// const recognitions = [
+//   "FEATURED — INDIAN WEDDING PHOTOGRAPHY",
+//   "FEATURED — DESTINATION WEDDING STORIES",
+//   "EDITOR'S PICK — WEDDING PHOTOGRAPHY",
+//   "FEATURED — CINEMATIC WEDDING FILMS",
+//   "RECOGNISED — LUXURY WEDDING STORIES",
+// ];
 
 /* =========================================================
    RECENT WORK

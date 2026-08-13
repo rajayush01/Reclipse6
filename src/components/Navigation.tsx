@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { EASE } from '@/lib/motion'
+import logo from "@/assests/logo5.png"
 
 const LINKS = [
   { label: 'Home', to: '/' },
@@ -9,9 +10,13 @@ const LINKS = [
   { label: 'Stories', to: '/stories' },
   { label: 'Video', to: '/films' },
   { label: 'Elopement Guides', to: '/elopement-guides', hasDropdown: true },
-  { label: 'Education', to: '/education', hasDropdown: true },
+  // { label: 'Education', to: '/education', hasDropdown: true },
   { label: 'Contact', to: '/contact' },
 ]
+
+// split into two even halves for the left/right nav clusters
+const LEFT_LINKS = LINKS.slice(0, 3)
+const RIGHT_LINKS = LINKS.slice(3)
 
 export default function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -19,26 +24,39 @@ export default function Navigation() {
 
   useEffect(() => setMenuOpen(false), [location.pathname])
 
+  const renderLink = (link: (typeof LINKS)[number]) => (
+    <li key={link.to} className="relative">
+      <Link
+        to={link.to}
+        className="eyebrow flex items-center gap-1 text-[11px] font-medium tracking-[0.18em] text-ink transition-colors hover:text-ink/50"
+      >
+        {link.label.toUpperCase()}
+        {link.hasDropdown && (
+          <svg width="8" height="8" viewBox="0 0 8 8" className="mt-px opacity-60">
+            <path d="M1 2.5L4 5.5L7 2.5" stroke="currentColor" strokeWidth="1" fill="none" />
+          </svg>
+        )}
+      </Link>
+    </li>
+  )
+
   return (
     <>
       <header className="sticky top-0 z-50 border-b border-ink bg-paper">
-        <nav className="mx-auto flex max-w-7xl items-center justify-center px-6 py-5 md:px-10">
-          <ul className="hidden items-center gap-9 lg:flex">
-            {LINKS.map((link) => (
-              <li key={link.to} className="relative">
-                <Link
-                  to={link.to}
-                  className="eyebrow flex items-center gap-1 text-[11px] font-medium tracking-[0.18em] text-ink transition-colors hover:text-ink/50"
-                >
-                  {link.label.toUpperCase()}
-                  {link.hasDropdown && (
-                    <svg width="8" height="8" viewBox="0 0 8 8" className="mt-px opacity-60">
-                      <path d="M1 2.5L4 5.5L7 2.5" stroke="currentColor" strokeWidth="1" fill="none" />
-                    </svg>
-                  )}
-                </Link>
-              </li>
-            ))}
+        <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 md:px-10">
+          {/* left links */}
+          <ul className="hidden flex-1 items-center justify-start gap-9 lg:flex">
+            {LEFT_LINKS.map(renderLink)}
+          </ul>
+
+          {/* centered logo */}
+          <Link to="/" className="flex shrink-0 items-center justify-center lg:mx-8">
+            <img src={logo} alt="Logo" className="h-10 w-auto" />
+          </Link>
+
+          {/* right links */}
+          <ul className="hidden flex-1 items-center justify-end gap-9 lg:flex">
+            {RIGHT_LINKS.map(renderLink)}
           </ul>
 
           {/* mobile trigger, pinned right */}

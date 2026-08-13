@@ -18,13 +18,14 @@ import NotFound from '@/pages/NotFound'
 
 export default function App() {
   const location = useLocation()
-  const isHome = location.pathname === '/'
+  // const isHome = location.pathname === '/'
 
   return (
     <>
       <Preloader />
       <CustomCursor />
-      <Navigation transparentOverHero={isHome} />
+      {/* <Navigation transparentOverHero={isHome} /> */}
+      <Navigation/>
 
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>

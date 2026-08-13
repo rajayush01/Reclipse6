@@ -10,6 +10,10 @@ import { featuredStories } from '@/data/stories'
 import Intro from '@/components/Intro'
 import FeaturedWeddings from '@/components/FeaturedWeddings'
 import CinematicFilms from '@/components/CineamticFilms'
+import {  ArrowUpRight } from "lucide-react";
+import w8 from "../assests/w8.jpg";
+
+
 
 const STATS = [
   { value: '11', label: 'Years Behind the Camera' },
@@ -136,6 +140,97 @@ export default function Home() {
       <Intro />
       <FeaturedWeddings />
       <CinematicFilms />
+      <section className="relative h-[72vh] min-h-[560px] overflow-hidden">
+
+        {/* =================================================
+            FIXED BACKGROUND IMAGE
+
+            This stays visually fixed while the page scrolls.
+        ================================================= */}
+
+        <div className="absolute inset-0">
+
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-fixed"
+            style={{
+              backgroundImage: `url(${w8})`,
+            }}
+          />
+
+        </div>
+
+
+        {/* dark cinematic overlay */}
+
+        <div className="absolute inset-0 bg-black/50" />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/20 to-black/35" />
+
+
+        {/* =================================================
+            CENTER CONTENT
+        ================================================= */}
+
+        <div className="relative z-10 flex h-full items-center justify-center px-6 text-center">
+
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: 35,
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{
+              once: true,
+              amount: 0.3,
+            }}
+            transition={{
+              duration: 1,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+            className="max-w-3xl"
+          >
+
+            <p className="text-[10px] uppercase tracking-[0.35em] text-[#EDE6D8]">
+              Enquire Now
+            </p>
+
+            <h2 className="mt-5 font-serif text-5xl leading-[0.95] text-[#FBF8F2] md:text-7xl lg:text-[82px]">
+              Your story
+              <br />
+
+              <span className="italic">
+                starts here.
+              </span>
+            </h2>
+
+            <p className="mx-auto mt-7 max-w-xl text-sm leading-7 text-[#EDE6D8] md:text-base">
+              Tell us about your wedding, your people and the
+              moments that matter most to you.
+            </p>
+
+            <Link
+              to="/enquire"
+              className="group mt-9 inline-flex items-center gap-4 border border-white/60 bg-[#F6F2EA] px-8 py-4 text-[10px] uppercase tracking-[0.25em] text-[#221E1A] transition-all duration-500 hover:bg-transparent hover:text-white"
+            >
+
+              Get in touch
+
+              <ArrowUpRight
+                size={15}
+                strokeWidth={1.4}
+                className="transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1"
+              />
+
+            </Link>
+
+          </motion.div>
+
+        </div>
+
+      </section>
       <Testimonial />
       <Awards />
       <ClosingImage />

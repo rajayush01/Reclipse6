@@ -20,7 +20,7 @@ export default function Intro() {
       {/* thin cropped texture strip along the very top, echoes a filmstrip edge */}
       <div
         className="absolute inset-x-0 top-0 h-6 sm:h-8 bg-cover bg-center opacity-90"
-        style={{ backgroundImage: `url(${BG_STRIP})` }}
+        // style={{ backgroundImage: `url(${BG_STRIP})` }}
         aria-hidden
       />
 

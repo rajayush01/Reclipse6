@@ -18,7 +18,7 @@ const COLUMNS = [
     links: [
       { label: 'Enquire', to: '/enquire' },
       { label: 'Instagram', to: 'https://instagram.com' },
-      { label: 'hello@RECLIPSEandlore.co', to: 'mailto:hello@RECLIPSEandlore.co' },
+      { label: 'hello@RECLIPSE.co', to: 'mailto:hello@RECLIPSE.co' },
     ],
   },
 ]
@@ -44,7 +44,7 @@ export default function Footer() {
 
         <div className="mt-16 grid grid-cols-2 gap-10 border-t border-line pt-10 md:grid-cols-4">
           <motion.div variants={fadeUp}>
-            <p className="font-display text-lg">RECLIPSE &amp; LORE</p>
+            <p className="font-display text-lg">RECLIPSE</p>
             <p className="mt-2 text-sm text-ash">Isle of Skye, Scotland</p>
           </motion.div>
 
@@ -68,7 +68,7 @@ export default function Footer() {
           variants={fadeUp}
           className="mt-16 flex flex-col justify-between gap-2 text-xs text-ash md:flex-row"
         >
-          <span>&copy; {new Date().getFullYear()} RECLIPSE &amp; Lore. All rights reserved.</span>
+          <span>&copy; {new Date().getFullYear()} RECLIPSE. All rights reserved.</span>
           <span>Cinematic elopement &amp; wedding photography</span>
         </motion.div>
       </motion.div>

@@ -3,20 +3,22 @@ import { Link, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { EASE } from '@/lib/motion'
 import logo from "@/assests/logo5.png"
+// import { label } from 'framer-motion/client'
 
 const LINKS = [
-  { label: 'Home', to: '/' },
-  { label: 'About', to: '/about' },
-  { label: 'Stories', to: '/stories' },
-  { label: 'Video', to: '/films' },
-  { label: 'Elopement Guides', to: '/elopement-guides', hasDropdown: true },
+  // { label: 'Home', to: '/' },
+  // { label: 'About', to: '/about' },
+  { label: 'Photography', to: '/stories' },
+  { label: 'Films', to: '/films' },
+  {label: 'FAQs', to: '/faq'},
+  // { label: 'Elopement Guides', to: '/elopement-guides', hasDropdown: true },
   // { label: 'Education', to: '/education', hasDropdown: true },
   { label: 'Contact', to: '/contact' },
 ]
 
 // split into two even halves for the left/right nav clusters
-const LEFT_LINKS = LINKS.slice(0, 3)
-const RIGHT_LINKS = LINKS.slice(3)
+const LEFT_LINKS = LINKS.slice(0, 2)
+const RIGHT_LINKS = LINKS.slice(2)
 
 export default function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false)

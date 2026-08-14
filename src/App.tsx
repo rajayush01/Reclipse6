@@ -15,6 +15,7 @@ import Journal from './pages/Journal'
 import JournalArticle from '@/pages/JournalArticle'
 import Enquire from '@/pages/Enquire'
 import NotFound from '@/pages/NotFound'
+import Faqs from './pages/Faqs'
 
 export default function App() {
   const location = useLocation()
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/" element={<PageTransition><Home /></PageTransition>} />
           <Route path="/photography" element={<PageTransition><Photography /></PageTransition>} />
           <Route path="/photography/:slug" element={<PageTransition><StoryDetail /></PageTransition>} />
+          <Route path="/faqs" element={<PageTransition><Faqs /></PageTransition>} />
           <Route path="/films" element={<PageTransition><Films /></PageTransition>} />
           <Route path="/films/:slug" element={<PageTransition><FilmDetail /></PageTransition>} />
           <Route path="/about" element={<PageTransition><About /></PageTransition>} />

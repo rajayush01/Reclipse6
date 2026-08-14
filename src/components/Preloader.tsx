@@ -29,7 +29,7 @@ export default function Preloader() {
             transition={{ duration: 0.8, ease: EASE, delay: 0.2 }}
             className="font-display text-2xl tracking-[0.1em]"
           >
-            RECLIPSE &amp; LORE
+            RECLIPSE
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}

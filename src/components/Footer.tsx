@@ -9,7 +9,7 @@ const NAV_LINKS = [
   { label: 'About', to: '/about' },
   { label: 'Stories', to: '/photography' },
   { label: 'Films', to: '/films' },
-  { label: 'Journal', to: '/journal' },
+  { label: 'Journal', to: '/stories' },
   { label: 'Contact', to: '/enquire' },
 ]
 
@@ -20,8 +20,19 @@ const SOCIALS = [
 ]
 
 export default function Footer() {
-  const ref = useRef(null)
-  const inView = useInView(ref, { once: true, margin: '-10% 0px' })
+  const ref = useRef<HTMLElement | null>(null);
+
+  const inView = useInView(ref, {
+    once: true,
+    margin: "-10% 0px",
+  });
+
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  // };
 
   return (
     <footer ref={ref} className="bg-bg px-6 pb-8 pt-10 md:px-10 max-w-7xl mx-auto">
@@ -106,5 +117,5 @@ export default function Footer() {
         </motion.div>
       </motion.div>
     </footer>
-  )
+  );
 }

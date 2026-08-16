@@ -22,9 +22,9 @@ const VIDEO_SRC =
   "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4";
 
 const AWARDS = [
-  { year: "2017", label: "Europe's Best Wedding Photographer", sub: "Way Up North Wedding Photo & Video Awards" },
-  { year: "2018", label: "Europe's Best Wedding Photographer", sub: "Way Up North Wedding Photo & Video Awards", tag: "Top 3 Finalist" },
-  { year: "2019", label: "Europe's Best Wedding Photographer", sub: "Way Up North Wedding Photo & Video Awards", tag: "Top 3 Finalist" },
+  { year: "2017", label: "India's Best Wedding Photographer", sub: "Way Up North Wedding Photo & Video Awards" },
+  { year: "2018", label: "India's Best Wedding Photographer", sub: "Way Up North Wedding Photo & Video Awards", tag: "Top 3 Finalist" },
+  { year: "2019", label: "India's Best Wedding Photographer", sub: "Way Up North Wedding Photo & Video Awards", tag: "Top 3 Finalist" },
 ];
 
 function LaurelBadge({
@@ -90,7 +90,7 @@ function LaurelBadge({
         ))}
       </svg>
       <p
-        className="font-serif text-lg leading-tight text-[#171715]"
+        className="font-display text-lg leading-tight text-[#171715]"
         style={{ fontFamily: "'Cormorant Garamond', serif" }}
       >
         {label}
@@ -126,7 +126,7 @@ export default function CinematicFilms() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-15% 0px" }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-          className="font-serif text-[10vw] leading-[1.1] text-[#171715] sm:text-5xl"
+          className="font-display text-[10vw] leading-[1.1] text-[#171715] sm:text-6xl"
           style={{ fontFamily: "'Playfair Display', serif" }}
         >
           CINEMATIC ELOPEMENT FILMS
@@ -137,7 +137,7 @@ export default function CinematicFilms() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-15% 0px" }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
-          className="mx-auto mt-6 max-w-2xl space-y-1 font-serif text-lg italic text-[#6E6B64] sm:text-xl"
+          className="mx-auto mt-6 max-w-5xl space-y-1 font-display text-lg italic text-[#6E6B64] sm:text-xl"
           style={{ fontFamily: "'Cormorant Garamond', serif" }}
         >
           <p>
@@ -147,7 +147,7 @@ export default function CinematicFilms() {
           </p>
           <p>
             Documenting weddings, elopements and couple stories in Scotland and throughout
-            Europe is something I&apos;m truly passionate about.
+            India is something I&apos;m truly passionate about.
           </p>
           <p>Let&apos;s capture your cinematic love story in Scotland!</p>
         </motion.div>
@@ -200,7 +200,7 @@ export default function CinematicFilms() {
           whileTap={{ scale: 0.98 }}
           className="bg-[#4B4A34] px-10 py-4 font-sans text-[13px] font-medium tracking-[0.2em] text-[#F5F3EE]"
         >
-          WATCH ELOPEMENT FILMS
+          WATCH OUR FILMS
         </motion.a>
       </div>
     </section>

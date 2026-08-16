@@ -163,12 +163,12 @@ export default function KitchenersHero() {
             }}
             className="font-display leading-[0.95] text-white drop-shadow-[0_2px_20px_rgba(0,0,0,0.35)]"
           >
-            <span className="block text-[15vw] tracking-[0.02em] sm:text-[9vw] lg:text-[6.5vw]">
-              The
+            <span className="block text-[15vw] tracking-[0.02em] sm:text-[9vw] lg:text-[7.5vw]">
+              THE
             </span>
 
-            <span className="-mt-2 block text-[15vw] tracking-[0.02em] sm:text-[9vw] lg:text-[6.5vw]">
-              Reclipse
+            <span className="-mt-2 block text-[15vw] tracking-[0.02em] sm:text-[9vw] lg:text-[7.5vw]">
+              RECLIPSE
             </span>
           </motion.h1>
         </div>

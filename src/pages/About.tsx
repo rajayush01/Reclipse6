@@ -218,7 +218,7 @@
 
 //             <motion.h1
 //               variants={reveal}
-//               className="font-serif text-5xl leading-[0.9] tracking-[-0.04em] md:text-7xl lg:text-[100px]"
+//               className="font-display text-5xl leading-[0.9] tracking-[-0.04em] md:text-7xl lg:text-[100px]"
 //             >
 //               We photograph
 //               <br />
@@ -345,7 +345,7 @@
 
 //             <div>
 
-//               <h2 className="font-serif text-3xl leading-[1.25] md:text-4xl lg:text-5xl">
+//               <h2 className="font-display text-3xl leading-[1.25] md:text-4xl lg:text-5xl">
 //                 Behind every photograph is a
 //                 <span className="italic">
 //                   {" "}
@@ -475,7 +475,7 @@
 //               Our Story
 //             </p>
 
-//             <h2 className="mt-5 font-serif text-4xl leading-tight md:text-5xl">
+//             <h2 className="mt-5 font-display text-4xl leading-tight md:text-5xl">
 //               It started with a love for
 //               <span className="italic">
 //                 {" "}
@@ -508,7 +508,7 @@
 
 //             <div className="mt-10 h-px w-14 bg-black/30" />
 
-//             <p className="mt-5 font-serif text-xl italic">
+//             <p className="mt-5 font-display text-xl italic">
 //               "The photographs should feel like you."
 //             </p>
 
@@ -582,7 +582,7 @@
 
 //             <div>
 
-//               <h2 className="font-serif text-4xl leading-[1.15] md:text-5xl lg:text-6xl">
+//               <h2 className="font-display text-4xl leading-[1.15] md:text-5xl lg:text-6xl">
 //                 A cinematic eye.
 //                 <br />
 
@@ -708,7 +708,7 @@
 //             Recognition
 //           </p>
 
-//           <h2 className="mt-5 font-serif text-4xl md:text-5xl">
+//           <h2 className="mt-5 font-display text-4xl md:text-5xl">
 //             Our work has been
 //             <span className="italic">
 //               {" "}
@@ -798,7 +798,7 @@
 //               Questions
 //             </p>
 
-//             <h2 className="mt-5 font-serif text-4xl md:text-5xl">
+//             <h2 className="mt-5 font-display text-4xl md:text-5xl">
 //               A few things you
 //               <span className="italic">
 //                 {" "}
@@ -842,7 +842,7 @@
 //                     className="flex w-full items-center justify-between gap-8 py-7 text-left"
 //                   >
 
-//                     <span className="font-serif text-xl md:text-2xl">
+//                     <span className="font-display text-xl md:text-2xl">
 //                       {faq.question}
 //                     </span>
 
@@ -917,7 +917,7 @@
 //               How It Works
 //             </p>
 
-//             <h2 className="mt-5 max-w-2xl font-serif text-4xl leading-tight md:text-5xl">
+//             <h2 className="mt-5 max-w-2xl font-display text-4xl leading-tight md:text-5xl">
 //               From the first hello
 //               <br />
 
@@ -961,7 +961,7 @@
 
 //                   <div>
 
-//                     <h3 className="font-serif text-2xl md:text-3xl">
+//                     <h3 className="font-display text-2xl md:text-3xl">
 //                       {step.title}
 //                     </h3>
 
@@ -1012,7 +1012,7 @@
 //             Your Story
 //           </p>
 
-//           <h2 className="mt-7 font-serif text-5xl leading-[0.92] tracking-[-0.03em] md:text-7xl lg:text-[90px]">
+//           <h2 className="mt-7 font-display text-5xl leading-[0.92] tracking-[-0.03em] md:text-7xl lg:text-[90px]">
 //             Let's make
 //             <br />
 
@@ -1254,7 +1254,7 @@
 //               animate="show"
 //               variants={fadeUp}
 //               transition={{ delay: 0.1 }}
-//               className="max-w-4xl font-serif text-5xl leading-[0.95] tracking-[-0.035em] text-[#FBF8F2] md:text-7xl lg:text-[88px]"
+//               className="max-w-4xl font-display text-5xl leading-[0.95] tracking-[-0.035em] text-[#FBF8F2] md:text-7xl lg:text-[88px]"
 //             >
 //               We photograph
 //               <br />
@@ -1329,7 +1329,7 @@
 //                 The Story
 //               </span>
 
-//               <h2 className="mt-4 font-serif text-3xl leading-[1.15] md:text-[2.7rem]">
+//               <h2 className="mt-4 font-display text-3xl leading-[1.15] md:text-[2.7rem]">
 //                 Hi, it's really nice
 //                 <br />
 //                 to meet you.
@@ -1493,7 +1493,7 @@
 //               transition={{
 //                 delay: index * 0.05,
 //               }}
-//               className="py-5 text-center font-serif text-base md:text-lg"
+//               className="py-5 text-center font-display text-base md:text-lg"
 //             >
 //               {line}
 //             </motion.div>
@@ -1526,7 +1526,7 @@
 //             Philosophy
 //           </span>
 
-//           <h2 className="mt-4 max-w-xl font-serif text-4xl leading-[1.1] md:text-5xl">
+//           <h2 className="mt-4 max-w-xl font-display text-4xl leading-[1.1] md:text-5xl">
 //             A cinematic eye.
 //             <br />
 
@@ -1671,7 +1671,7 @@
 //                 Good to know
 //               </span>
 
-//               <h2 className="mt-4 font-serif text-4xl leading-tight md:text-5xl">
+//               <h2 className="mt-4 font-display text-4xl leading-tight md:text-5xl">
 //                 Questions,
 //                 <br />
 
@@ -1725,7 +1725,7 @@
 //                       className="flex w-full items-center justify-between gap-8 text-left"
 //                     >
 
-//                       <span className="pr-8 font-serif text-lg md:text-xl">
+//                       <span className="pr-8 font-display text-lg md:text-xl">
 //                         {faq.q}
 //                       </span>
 
@@ -1815,7 +1815,7 @@
 //                     The moments between
 //                   </p>
 
-//                   <p className="mt-2 max-w-xs font-serif text-2xl italic text-white">
+//                   <p className="mt-2 max-w-xs font-display text-2xl italic text-white">
 //                     The photographs should feel like memories.
 //                   </p>
 
@@ -1852,7 +1852,7 @@
 //             Working together
 //           </span>
 
-//           <h2 className="mt-4 max-w-2xl font-serif text-4xl md:text-5xl">
+//           <h2 className="mt-4 max-w-2xl font-display text-4xl md:text-5xl">
 //             From the first hello
 //             <br />
 
@@ -1889,11 +1889,11 @@
 //               className="border-t border-[#DCD4C2] pt-6"
 //             >
 
-//               <span className="font-serif text-sm text-[#A79C82]">
+//               <span className="font-display text-sm text-[#A79C82]">
 //                 {step.n}
 //               </span>
 
-//               <h3 className="mt-2 font-serif text-xl italic">
+//               <h3 className="mt-2 font-display text-xl italic">
 //                 {step.title}
 //               </h3>
 
@@ -1971,7 +1971,7 @@
 //               Enquire Now
 //             </p>
 
-//             <h2 className="mt-5 font-serif text-5xl leading-[0.95] text-[#FBF8F2] md:text-7xl lg:text-[82px]">
+//             <h2 className="mt-5 font-display text-5xl leading-[0.95] text-[#FBF8F2] md:text-7xl lg:text-[82px]">
 //               Your story
 //               <br />
 
@@ -2027,7 +2027,7 @@
 //             Recent Stories
 //           </span>
 
-//           <h2 className="mt-4 font-serif text-4xl md:text-5xl">
+//           <h2 className="mt-4 font-display text-4xl md:text-5xl">
 //             The Latest
 //           </h2>
 
@@ -2081,7 +2081,7 @@
 //                       {item.tag}
 //                     </span>
 
-//                     <h3 className="mt-2 font-serif text-xl leading-snug">
+//                     <h3 className="mt-2 font-display text-xl leading-snug">
 //                       {item.title}
 //                     </h3>
 
@@ -2134,7 +2134,7 @@
 //             Let's create something beautiful
 //           </p>
 
-//           <h2 className="mt-6 font-serif text-5xl leading-[0.95] md:text-7xl">
+//           <h2 className="mt-6 font-display text-5xl leading-[0.95] md:text-7xl">
 //             Ready to tell
 //             <br />
 
@@ -2377,7 +2377,7 @@ export default function About() {
               animate="show"
               variants={fadeUp}
               transition={{ delay: 0.1 }}
-              className="max-w-4xl font-serif text-5xl leading-[0.95] tracking-[-0.035em] text-[#FBF8F2] md:text-7xl lg:text-[88px]"
+              className="max-w-4xl font-display text-5xl leading-[0.95] tracking-[-0.035em] text-[#FBF8F2] md:text-7xl lg:text-[88px]"
             >
               We photograph
               <br />
@@ -2452,7 +2452,7 @@ export default function About() {
                 The Story
               </span>
 
-              <h2 className="mt-4 font-serif text-3xl leading-[1.15] md:text-[2.7rem]">
+              <h2 className="mt-4 font-display text-3xl leading-[1.15] md:text-[2.7rem]">
                 Hi, it's really nice
                 <br />
                 to meet you.
@@ -2865,7 +2865,7 @@ export default function About() {
             }}
             className="absolute bottom-[7%] left-1/2 -translate-x-1/2"
           >
-            <p className="whitespace-nowrap font-serif text-sm italic text-black/30">
+            <p className="whitespace-nowrap font-display text-sm italic text-black/30">
               Stories worth remembering
             </p>
           </motion.div>
@@ -2938,7 +2938,7 @@ export default function About() {
             Philosophy
           </span>
 
-          <h2 className="mt-4 max-w-xl font-serif text-4xl leading-[1.1] md:text-5xl">
+          <h2 className="mt-4 max-w-xl font-display text-4xl leading-[1.1] md:text-5xl">
             A cinematic eye.
             <br />
 
@@ -3083,7 +3083,7 @@ export default function About() {
                 Good to know
               </span>
 
-              <h2 className="mt-4 font-serif text-4xl leading-tight md:text-5xl">
+              <h2 className="mt-4 font-display text-4xl leading-tight md:text-5xl">
                 Questions,
                 <br />
 
@@ -3137,7 +3137,7 @@ export default function About() {
                       className="flex w-full items-center justify-between gap-8 text-left"
                     >
 
-                      <span className="pr-8 font-serif text-lg md:text-xl">
+                      <span className="pr-8 font-display text-lg md:text-xl">
                         {faq.q}
                       </span>
 
@@ -3227,7 +3227,7 @@ export default function About() {
                     The moments between
                   </p>
 
-                  <p className="mt-2 max-w-xs font-serif text-2xl italic text-white">
+                  <p className="mt-2 max-w-xs font-display text-2xl italic text-white">
                     The photographs should feel like memories.
                   </p>
 
@@ -3264,7 +3264,7 @@ export default function About() {
             Working together
           </span>
 
-          <h2 className="mt-4 max-w-2xl font-serif text-4xl md:text-5xl">
+          <h2 className="mt-4 max-w-2xl font-display text-4xl md:text-5xl">
             From the first hello
             <br />
 
@@ -3301,11 +3301,11 @@ export default function About() {
               className="border-t border-[#DCD4C2] pt-6"
             >
 
-              <span className="font-serif text-sm text-[#A79C82]">
+              <span className="font-display text-sm text-[#A79C82]">
                 {step.n}
               </span>
 
-              <h3 className="mt-2 font-serif text-xl italic">
+              <h3 className="mt-2 font-display text-xl italic">
                 {step.title}
               </h3>
 
@@ -3383,7 +3383,7 @@ export default function About() {
               Enquire Now
             </p>
 
-            <h2 className="mt-5 font-serif text-5xl leading-[0.95] text-[#FBF8F2] md:text-7xl lg:text-[82px]">
+            <h2 className="mt-5 font-display text-5xl leading-[0.95] text-[#FBF8F2] md:text-7xl lg:text-[82px]">
               Your story
               <br />
 
@@ -3439,7 +3439,7 @@ export default function About() {
             Recent Stories
           </span>
 
-          <h2 className="mt-4 font-serif text-4xl md:text-5xl">
+          <h2 className="mt-4 font-display text-4xl md:text-5xl">
             The Latest
           </h2>
 
@@ -3493,7 +3493,7 @@ export default function About() {
                       {item.tag}
                     </span>
 
-                    <h3 className="mt-2 font-serif text-xl leading-snug">
+                    <h3 className="mt-2 font-display text-xl leading-snug">
                       {item.title}
                     </h3>
 
@@ -3546,7 +3546,7 @@ export default function About() {
             Let's create something beautiful
           </p>
 
-          <h2 className="mt-6 font-serif text-5xl leading-[0.95] md:text-7xl">
+          <h2 className="mt-6 font-display text-5xl leading-[0.95] md:text-7xl">
             Ready to tell
             <br />
 

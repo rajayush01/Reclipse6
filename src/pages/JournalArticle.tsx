@@ -189,7 +189,7 @@ export default function JournalArticle() {
               {post.date}
             </p>
 
-            <h1 className="mx-auto mt-7 max-w-[1000px] font-serif text-5xl leading-[0.92] tracking-[-0.035em] md:text-7xl lg:text-[92px]">
+            <h1 className="mx-auto mt-7 max-w-[1000px] font-display text-5xl leading-[0.92] tracking-[-0.035em] md:text-7xl lg:text-[92px]">
               {post.title}
             </h1>
 
@@ -321,7 +321,7 @@ export default function JournalArticle() {
           className="mx-auto max-w-[720px]"
         >
 
-          <p className="font-serif text-2xl leading-[1.4] text-black/80 md:text-3xl lg:text-[34px]">
+          <p className="font-display text-2xl leading-[1.4] text-black/80 md:text-3xl lg:text-[34px]">
             {post.introduction}
           </p>
 
@@ -413,11 +413,11 @@ export default function JournalArticle() {
           className="mx-auto max-w-[900px] text-center"
         >
 
-          <span className="font-serif text-5xl text-black/15">
+          <span className="font-display text-5xl text-black/15">
             “
           </span>
 
-          <blockquote className="mt-2 font-serif text-3xl leading-[1.25] md:text-5xl lg:text-6xl">
+          <blockquote className="mt-2 font-display text-3xl leading-[1.25] md:text-5xl lg:text-6xl">
             {post.quote}
           </blockquote>
 
@@ -456,7 +456,7 @@ export default function JournalArticle() {
             Looking Back
           </p>
 
-          <p className="font-serif text-2xl leading-[1.5] text-black/80 md:text-3xl">
+          <p className="font-display text-2xl leading-[1.5] text-black/80 md:text-3xl">
             {post.conclusion}
           </p>
 
@@ -493,7 +493,7 @@ export default function JournalArticle() {
             Your Story
           </p>
 
-          <h2 className="font-serif text-5xl leading-[0.95] md:text-7xl lg:text-8xl">
+          <h2 className="font-display text-5xl leading-[0.95] md:text-7xl lg:text-8xl">
             Your story
             <br />
             <span className="italic">
@@ -547,7 +547,7 @@ export default function JournalArticle() {
 
             </div>
 
-            <h3 className="mt-6 max-w-md font-serif text-2xl leading-tight md:text-3xl">
+            <h3 className="mt-6 max-w-md font-display text-2xl leading-tight md:text-3xl">
               {previousPost.title}
             </h3>
 
@@ -574,7 +574,7 @@ export default function JournalArticle() {
 
             </div>
 
-            <h3 className="ml-auto mt-6 max-w-md font-serif text-2xl leading-tight md:text-3xl">
+            <h3 className="ml-auto mt-6 max-w-md font-display text-2xl leading-tight md:text-3xl">
               {nextPost.title}
             </h3>
 

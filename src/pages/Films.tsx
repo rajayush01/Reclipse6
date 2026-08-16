@@ -159,7 +159,7 @@ export default function Films() {
 
               <motion.h1
                 variants={heroItem}
-                className="font-serif text-6xl leading-[0.88] tracking-[-0.045em] sm:text-7xl md:text-8xl lg:text-[105px]"
+                className="font-display text-6xl leading-[0.88] tracking-[-0.045em] sm:text-7xl md:text-8xl lg:text-[105px]"
               >
                 Stories that
                 <br />
@@ -365,7 +365,7 @@ export default function Films() {
 
             <div>
 
-              <p className="font-serif text-3xl leading-[1.25] md:text-4xl lg:text-5xl">
+              <p className="font-display text-3xl leading-[1.25] md:text-4xl lg:text-5xl">
                 We don't just record your wedding.
                 <br />
 
@@ -423,7 +423,7 @@ export default function Films() {
                 Selected Work
               </p>
 
-              <h2 className="mt-3 font-serif text-4xl md:text-5xl">
+              <h2 className="mt-3 font-display text-4xl md:text-5xl">
                 Wedding Films
               </h2>
 
@@ -499,7 +499,7 @@ export default function Films() {
 
                     </div>
 
-                    <h3 className="mt-4 font-serif text-3xl leading-tight md:text-4xl lg:text-5xl">
+                    <h3 className="mt-4 font-display text-3xl leading-tight md:text-4xl lg:text-5xl">
                       {film.title}
                     </h3>
 
@@ -570,7 +570,7 @@ export default function Films() {
             More Than A Wedding Film
           </p>
 
-          <h2 className="font-serif text-5xl leading-[0.95] md:text-7xl lg:text-[88px]">
+          <h2 className="font-display text-5xl leading-[0.95] md:text-7xl lg:text-[88px]">
             The day will pass.
             <br />
 
@@ -597,7 +597,7 @@ export default function Films() {
               How We Work
             </p>
 
-            <h2 className="mt-4 max-w-2xl font-serif text-4xl leading-tight md:text-5xl">
+            <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight md:text-5xl">
               A cinematic approach to
               <span className="italic">
                 {" "}
@@ -632,7 +632,7 @@ export default function Films() {
                 01
               </span>
 
-              <h3 className="mt-5 font-serif text-3xl">
+              <h3 className="mt-5 font-display text-3xl">
                 Be Present
               </h3>
 
@@ -668,7 +668,7 @@ export default function Films() {
                 02
               </span>
 
-              <h3 className="mt-5 font-serif text-3xl">
+              <h3 className="mt-5 font-display text-3xl">
                 Find The Feeling
               </h3>
 
@@ -704,7 +704,7 @@ export default function Films() {
                 03
               </span>
 
-              <h3 className="mt-5 font-serif text-3xl">
+              <h3 className="mt-5 font-display text-3xl">
                 Make It Cinematic
               </h3>
 
@@ -751,7 +751,7 @@ export default function Films() {
             Your Wedding Film
           </p>
 
-          <h2 className="font-serif text-5xl leading-[0.95] md:text-7xl lg:text-8xl">
+          <h2 className="font-display text-5xl leading-[0.95] md:text-7xl lg:text-8xl">
             Let's tell
             <br />
 

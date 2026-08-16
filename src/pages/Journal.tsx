@@ -160,7 +160,7 @@
 
 //             <motion.h1
 //               variants={heroItem}
-//               className="font-serif text-5xl leading-[0.95] tracking-[-0.03em] md:text-7xl lg:text-8xl"
+//               className="font-display text-5xl leading-[0.95] tracking-[-0.03em] md:text-7xl lg:text-8xl"
 //             >
 //               Stories
 //               <br />
@@ -195,7 +195,7 @@
 //                 Our Journal
 //               </p>
 
-//               <h2 className="mt-2 font-serif text-3xl md:text-4xl">
+//               <h2 className="mt-2 font-display text-3xl md:text-4xl">
 //                 Latest Stories
 //               </h2>
 //             </div>
@@ -317,7 +317,7 @@
 
 //                 <Link to={`/journal/${story.slug}`}>
 //                   <motion.h3
-//                     className="mt-3 font-serif text-2xl leading-tight md:text-3xl"
+//                     className="mt-3 font-display text-2xl leading-tight md:text-3xl"
 //                     whileHover={{
 //                       x: 3,
 //                     }}
@@ -383,7 +383,7 @@
 //             Your Story
 //           </p>
 
-//           <h2 className="font-serif text-5xl leading-[0.95] md:text-7xl lg:text-8xl">
+//           <h2 className="font-display text-5xl leading-[0.95] md:text-7xl lg:text-8xl">
 //             Let's create
 //             <br />
 
@@ -596,7 +596,7 @@ export default function Journal() {
             The Journal
           </p>
 
-          <h1 className="font-serif text-4xl leading-tight tracking-[-0.025em] md:text-5xl lg:text-[52px]">
+          <h1 className="font-display text-4xl leading-tight tracking-[-0.025em] md:text-5xl lg:text-[52px]">
             The Latest Stories
           </h1>
 
@@ -731,7 +731,7 @@ export default function Journal() {
 
                 <Link to={`/journal/${story.slug}`}>
                   <motion.h2
-                    className="mx-auto mt-3 max-w-[420px] font-serif text-2xl leading-[1.12] md:text-[29px]"
+                    className="mx-auto mt-3 max-w-[420px] font-display text-2xl leading-[1.12] md:text-[29px]"
                     whileHover={{
                       y: -2,
                     }}
@@ -797,7 +797,7 @@ export default function Journal() {
             Your Story
           </p>
 
-          <h2 className="font-serif text-5xl leading-[0.95] md:text-7xl lg:text-8xl">
+          <h2 className="font-display text-5xl leading-[0.95] md:text-7xl lg:text-8xl">
             Let's create
             <br />
 

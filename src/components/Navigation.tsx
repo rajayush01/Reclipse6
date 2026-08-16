@@ -13,8 +13,8 @@ type NavLink = {
 const LINKS: NavLink[] = [
   { label: 'Photography', to: '/stories' },
   { label: 'Films', to: '/films' },
-  { label: 'FAQs', to: '/faq' },
-  { label: 'Contact', to: '/contact' },
+  { label: 'FAQs', to: '/faqs' },
+  { label: 'Contact', to: '/enquire' },
 
   // If you need dropdowns later:
   // { label: 'Elopement Guides', to: '/elopement-guides', hasDropdown: true },

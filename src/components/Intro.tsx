@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUp } from "lucide-react";
+// import { ArrowUp } from "lucide-react";
 import { useZoomReveal } from "@/hooks/useZoomReveal";
 
 
@@ -68,10 +68,10 @@ export default function Intro() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
-            className="font-serif text-[#171715] leading-[1.08]"
+            className="font-display text-[#171715] leading-[1.08]"
             style={{ fontFamily: "'Playfair Display', 'Cormorant Garamond', serif" }}
           >
-            <span className="block text-[13vw] sm:text-[6.5vw] lg:text-[80px] tracking-tight">
+            <span className="block text-[13vw] sm:text-[6.5vw] lg:text-[72px] tracking-tight">
               CINEMATIC{" "}
               <em
                 className="italic font-normal"
@@ -80,26 +80,17 @@ export default function Intro() {
                 Love Stories
               </em>
             </span>
-            <span className="block text-[13vw] sm:text-[6.5vw] lg:text-[80px] tracking-tight">
-              IN INDIA &amp;
+            <span className="block text-[13vw] sm:text-[6.5vw] lg:text-[72px] tracking-tight">
+              IN INDIA &amp; ABROAD
             </span>
-            <span className="block text-[13vw] sm:text-[6.5vw] lg:text-[80px] tracking-tight">
-              ABROAD
-            </span>
+            {/* <span className="block text-[13vw] sm:text-[6.5vw] lg:text-[72px] tracking-tight">
+              
+            </span> */}
           </motion.h1>
         </div>
       </div>
 
-      {/* back-to-top */}
-      <motion.a
-        href="#top"
-        whileHover={{ scale: 1.08 }}
-        whileTap={{ scale: 0.95 }}
-        className="absolute bottom-8 right-8 flex h-11 w-11 items-center justify-center border border-[#171715]/70 text-[#171715] transition-colors hover:bg-[#171715] hover:text-[#F5F3EE]"
-        aria-label="Back to top"
-      >
-        <ArrowUp size={16} strokeWidth={1.5} />
-      </motion.a>
+      
     </section>
   );
 }

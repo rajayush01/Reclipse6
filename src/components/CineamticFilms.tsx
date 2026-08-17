@@ -4,7 +4,7 @@ import { Play } from "lucide-react";
 import { useZoomReveal } from "@/hooks/useZoomReveal";
 
 /**
- * RECLIPSE — Cinematic Elopement Films
+ * RECLIPSE — Cinematic  Films
  *
  * Full-width video reveals via the same scroll-tied zoom used across the
  * page (small + invisible → full scale + opaque). A custom play button sits
@@ -129,7 +129,7 @@ export default function CinematicFilms() {
           className="font-display text-[10vw] leading-[1.1] text-[#171715] sm:text-6xl"
           style={{ fontFamily: "'Playfair Display', serif" }}
         >
-          CINEMATIC ELOPEMENT FILMS
+          CINEMATIC  FILMS
         </motion.h2>
 
         <motion.div
@@ -142,11 +142,11 @@ export default function CinematicFilms() {
         >
           <p>
             Your own love story in the Scottish highlands captured in all its cinematic
-            glory. Hold onto the feeling and emotion you felt on your elopement day in
+            glory. Hold onto the feeling and emotion you felt on your  day in
             Scotland through the magic of cinema.
           </p>
           <p>
-            Documenting weddings, elopements and couple stories in Scotland and throughout
+            Documenting weddings, s and couple stories in Scotland and throughout
             India is something I&apos;m truly passionate about.
           </p>
           <p>Let&apos;s capture your cinematic love story in Scotland!</p>

@@ -6,7 +6,7 @@ const FIELDS: { name: string; label: string; type: string; full?: boolean }[] = 
   { name: 'name', label: 'Your Name', type: 'text' },
   { name: 'partner', label: "Partner's Name", type: 'text' },
   { name: 'email', label: 'Email', type: 'email' },
-  { name: 'date', label: 'Wedding / Elopement Date', type: 'date' },
+  { name: 'date', label: 'Wedding /  Date', type: 'date' },
   { name: 'location', label: 'Location', type: 'text' },
   { name: 'interest', label: 'Photography, Film, or Both', type: 'text' },
 ]

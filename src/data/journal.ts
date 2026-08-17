@@ -13,7 +13,7 @@
 //     title: 'How to Elope in Scotland',
 //     category: 'Planning',
 //     date: 'March 2026',
-//     excerpt: 'Permits, weather windows and the honest timeline of planning a Highland elopement.',
+//     excerpt: 'Permits, weather windows and the honest timeline of planning a Highland .',
 //     cover: 'https://picsum.photos/seed/journal-1/1600/1100',
 //   },
 //   {
@@ -25,8 +25,8 @@
 //     cover: 'https://picsum.photos/seed/journal-2/1600/1100',
 //   },
 //   {
-//     slug: 'scotland-elopement-planning-guide',
-//     title: 'A Scotland Elopement Planning Guide',
+//     slug: 'scotland--planning-guide',
+//     title: 'A Scotland  Planning Guide',
 //     category: 'Planning',
 //     date: 'November 2025',
 //     excerpt: 'What to book first, what can wait, and what never goes to plan.',

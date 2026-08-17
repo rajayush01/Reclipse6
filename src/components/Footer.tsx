@@ -89,7 +89,7 @@ export default function Footer() {
           variants={fadeUp}
           className="mt-16 text-center font-display text-lg italic text-ash md:text-xl"
         >
-          Cinematic elopement &amp; wedding photography, capturing real stories
+          Cinematic  &amp; wedding photography, capturing real stories
           across Scotland
         </motion.p>
 

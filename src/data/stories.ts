@@ -22,10 +22,10 @@ export interface Story {
 // alt text describes the intended shot so replacements are easy to match.
 export const stories: Story[] = [
   {
-    slug: 'glencoe-elopement',
+    slug: 'glencoe-',
     title: 'Glencoe, at First Light',
     location: 'Glencoe, Scotland',
-    category: 'Elopement',
+    category: '',
     year: '2026',
     excerpt: 'Two vows and a valley still holding its breath before sunrise.',
     description:
@@ -40,10 +40,10 @@ export const stories: Story[] = [
     quote: { text: 'It felt like the mountains had been let in on the secret before anyone else.', attribution: 'Effie & Sam' },
   },
   {
-    slug: 'isle-of-skye-elopement',
+    slug: 'isle-of-skye-',
     title: 'Skye, Between Weathers',
     location: 'Isle of Skye, Scotland',
-    category: 'Elopement',
+    category: '',
     year: '2025',
     excerpt: 'Four seasons in an afternoon, one dress, no complaints.',
     description:
@@ -75,10 +75,10 @@ export const stories: Story[] = [
     ],
   },
   {
-    slug: 'glen-etive-elopement',
+    slug: 'glen-etive-',
     title: 'Glen Etive, Downriver',
     location: 'Glen Etive, Scotland',
-    category: 'Elopement',
+    category: '',
     year: '2026',
     excerpt: 'The road that ends at the water, and a promise made there.',
     description:
@@ -91,10 +91,10 @@ export const stories: Story[] = [
     ],
   },
   {
-    slug: 'north-spain-elopement',
+    slug: 'north-spain-',
     title: 'Asturias, Off-Season',
     location: 'North Spain',
-    category: 'Elopement',
+    category: '',
     year: '2025',
     excerpt: 'Green coastline, empty beaches, a ceremony in three languages.',
     description:

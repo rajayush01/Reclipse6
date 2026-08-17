@@ -109,7 +109,7 @@ export default function FeaturedWeddings() {
         className="mx-auto mb-20 max-w-4xl text-center font-display text-[11vw] leading-[1.1] text-[#171715] sm:text-5xl lg:text-6xl"
         style={{ fontFamily: "'Playfair Display', serif" }}
       >
-        FEATURED WEDDINGS AND ELOPEMENTS
+        FEATURED WEDDINGS
       </motion.h2>
 
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-x-16 gap-y-20 sm:grid-cols-2 sm:gap-y-32">

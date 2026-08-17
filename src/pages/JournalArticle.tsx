@@ -21,7 +21,7 @@
 // //       <div className="mx-auto mt-16 max-w-xl space-y-6 text-[15px] leading-relaxed text-ash">
 // //         <p>{post.excerpt}</p>
 // //         <p>
-// //           Scotland rewards elopements that plan loosely and dress warmly. Every couple who
+// //           Scotland rewards s that plan loosely and dress warmly. Every couple who
 // //           has trusted the weather here has come away with a story worth more than a perfect
 // //           forecast would have given them.
 // //         </p>
@@ -37,7 +37,7 @@
 
 // //       <div className="mx-auto mt-20 max-w-xl text-center">
 // //         <Link to="/enquire" className="eyebrow border border-ink px-8 py-4 transition-colors hover:bg-ink hover:text-bg">
-// //           Plan Your Elopement
+// //           Plan Your 
 // //         </Link>
 // //       </div>
 // //     </article>

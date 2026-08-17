@@ -38,7 +38,7 @@ import Testimonials from "@/components/Testimonials";
 //         </motion.h2>
 //         <motion.div variants={fadeUp} className="md:col-span-4 md:col-start-9">
 //           <p className="text-[15px] leading-relaxed text-ash">
-//             I photograph elopements and weddings the way they actually happened — the
+//             I photograph s and weddings the way they actually happened — the
 //             wind, the wrong turn, the fit of laughter before the vows. Based on the Isle
 //             of Skye, working across Scotland and further afield.
 //           </p>
@@ -222,12 +222,12 @@ export default function Home() {
             </p> */}
 
             <h2 className="mt-5 font-display text-5xl font-extralight leading-[0.95] text-[#FBF8F2] md:text-7xl lg:text-[40px]">
-              Specialising in cinematic Scottish elopements and weddings for
+              Specialising in cinematic Scottish weddings for
               over 15 years
             </h2>
 
             {/* <p className="mx-auto mt-7 max-w-xl font-display text-sm font-light leading-7 text-[#EDE6D8] md:text-base">
-              Specialising in cinematic Scottish elopements and weddings for
+              Specialising in cinematic Scottish weddings for
               over 15 years
             </p> */}
           </motion.div>

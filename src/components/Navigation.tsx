@@ -17,7 +17,7 @@ const LINKS: NavLink[] = [
   { label: 'Contact', to: '/enquire' },
 
   // If you need dropdowns later:
-  // { label: 'Elopement Guides', to: '/elopement-guides', hasDropdown: true },
+  // { label: ' Guides', to: '/-guides', hasDropdown: true },
   // { label: 'Education', to: '/education', hasDropdown: true },
 ]
 

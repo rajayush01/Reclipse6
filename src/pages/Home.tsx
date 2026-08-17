@@ -1,6 +1,6 @@
 // import { Link } from "react-router-dom";
-import { motion, useInView } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 import Hero from "@/components/Hero";
 // import SectionHeading from '@/components/SectionHeading'
 // import StoryCard from '@/components/StoryCard'

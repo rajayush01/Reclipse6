@@ -1146,41 +1146,26 @@ export default function Films() {
 
                     <div className="mb-4 h-px w-16 bg-[#182638]/60" />
 
-
-                    {/* COUPLE NAME */}
-
-                    <h3
-                      className="
-                        font-serif
-                        text-4xl
-                        font-light
-                        uppercase
-                        leading-none
-                        tracking-[-0.02em]
-                        text-[#182638]
-                        md:text-5xl
-                        lg:text-6xl
-                      "
-                    >
-                      {film.title}
-                    </h3>
+    <h3 className="font-['Cinzel'] text-4xl font-light uppercase leading-none tracking-[-0.02em] text-[#182638] md:text-5xl lg:text-6xl">
+  {film.title}
+</h3>
 
 
                     {/* CATEGORY / LOCATION */}
 
-                    <p
-                      className="
-                        mt-3
-                        font-serif
-                        text-sm
-                        italic
-                        leading-none
-                        text-[#182638]
-                        md:text-base
-                      "
-                    >
-                      {film.category} / {film.location}
-                    </p>
+                <p
+  className="
+    mt-2
+    font-serif
+    text-sm
+    italic
+    font-light
+    leading-none
+    text-[#182638]/80
+  "
+>
+  {film.category} / {film.location}
+</p>
 
                   </div>
 

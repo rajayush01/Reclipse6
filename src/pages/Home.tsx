@@ -4,23 +4,23 @@ import { useEffect, useRef, useState } from "react";
 import Hero from "@/components/Hero";
 // import SectionHeading from '@/components/SectionHeading'
 // import StoryCard from '@/components/StoryCard'
-import EditorialImage from "@/components/EditorialImage";
-import { fadeUp, staggerContainer } from "@/lib/motion";
+// import EditorialImage from "@/components/EditorialImage";
+// import { fadeUp, staggerContainer } from "@/lib/motion";
 // import { featuredStories } from '@/data/stories'
 import Intro from "@/components/Intro";
 import FeaturedWeddings from "@/components/FeaturedWeddings";
 import CinematicFilms from "@/components/CineamticFilms";
-import { ArrowUp, ArrowUpRight } from "lucide-react";
+import { ArrowUp } from "lucide-react";
 import w8 from "../assests/w8.jpg";
 import w1 from "../assests/w1.jpg";
 import Testimonials from "@/components/Testimonials";
 
-const STATS = [
-  { value: "11", label: "Years Behind the Camera" },
-  { value: "240+", label: "Stories Told" },
-  { value: "3", label: "Countries Worked" },
-  { value: "1", label: "Approach, Every Time" },
-];
+// const STATS = [
+//   { value: "11", label: "Years Behind the Camera" },
+//   { value: "240+", label: "Stories Told" },
+//   { value: "3", label: "Countries Worked" },
+//   { value: "1", label: "Approach, Every Time" },
+// ];
 
 // function Intro() {
 //   const ref = useRef(null)

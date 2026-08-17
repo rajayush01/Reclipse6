@@ -99,42 +99,42 @@ const STATS = [
 //   );
 // }
 
-function Awards() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-15% 0px" });
-  return (
-    <section ref={ref} className="mx-auto max-w-[1600px] px-6 py-24 md:px-10">
-      <motion.div
-        variants={staggerContainer()}
-        initial="hidden"
-        animate={inView ? "visible" : "hidden"}
-        className="grid grid-cols-2 gap-10 border-t border-line pt-14 md:grid-cols-4"
-      >
-        {STATS.map((s) => (
-          <motion.div key={s.label} variants={fadeUp}>
-            <p className="font-display text-4xl md:text-5xl">{s.value}</p>
-            <p className="eyebrow mt-3">{s.label}</p>
-          </motion.div>
-        ))}
-      </motion.div>
-    </section>
-  );
-}
+// function Awards() {
+//   const ref = useRef(null);
+//   const inView = useInView(ref, { once: true, margin: "-15% 0px" });
+//   return (
+//     <section ref={ref} className="mx-auto max-w-[1600px] px-6 py-24 md:px-10">
+//       <motion.div
+//         variants={staggerContainer()}
+//         initial="hidden"
+//         animate={inView ? "visible" : "hidden"}
+//         className="grid grid-cols-2 gap-10 border-t border-line pt-14 md:grid-cols-4"
+//       >
+//         {STATS.map((s) => (
+//           <motion.div key={s.label} variants={fadeUp}>
+//             <p className="font-display text-4xl md:text-5xl">{s.value}</p>
+//             <p className="eyebrow mt-3">{s.label}</p>
+//           </motion.div>
+//         ))}
+//       </motion.div>
+//     </section>
+//   );
+// }
 
-function ClosingImage() {
-  return (
-    <section className="mx-auto max-w-[1600px] px-6 pb-28 md:px-10 md:pb-40">
-      <EditorialImage
-        image={{
-          src: "https://picsum.photos/seed/RECLIPSE-closing/2400/1350",
-          alt: "Couple walking along a Scottish coastline at dusk",
-          orientation: "landscape",
-        }}
-        className="aspect-[16/9] md:aspect-[21/9]"
-      />
-    </section>
-  );
-}
+// function ClosingImage() {
+//   return (
+//     <section className="mx-auto max-w-[1600px] px-6 pb-28 md:px-10 md:pb-40">
+//       <EditorialImage
+//         image={{
+//           src: "https://picsum.photos/seed/RECLIPSE-closing/2400/1350",
+//           alt: "Couple walking along a Scottish coastline at dusk",
+//           orientation: "landscape",
+//         }}
+//         className="aspect-[16/9] md:aspect-[21/9]"
+//       />
+//     </section>
+//   );
+// }
 
 export default function Home() {
   const [showBackToTop, setShowBackToTop] = useState(false);

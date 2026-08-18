@@ -6,11 +6,11 @@ import { Camera, Play, Share2 } from 'lucide-react'
 
 const NAV_LINKS = [
   { label: 'Home', to: '/' },
-  { label: 'About', to: '/about' },
-  { label: 'Stories', to: '/photography' },
-  { label: 'Films', to: '/films' },
-  { label: 'Journal', to: '/stories' },
-  { label: 'Contact', to: '/enquire' },
+ // { label: 'About', to: '/about' },
+  { label: 'Photography' },
+  { label: 'Films' },
+  { label: 'FAQs' },
+  { label: 'Contact' },
 ]
 
 const SOCIALS = [
@@ -56,10 +56,10 @@ export default function Footer() {
             </p>
 
             <div className="mt-6 flex items-center gap-5">
-              {SOCIALS.map(({ icon: Icon, href, label }) => (
+              {SOCIALS.map(({ icon: Icon,label }) => (
                 <a
                   key={label}
-                  href={href}
+                 
                   target="_blank"
                   rel="noreferrer"
                   aria-label={label}
@@ -72,16 +72,15 @@ export default function Footer() {
           </div>
 
           <nav className="flex flex-wrap gap-x-8 gap-y-3 md:pt-3">
-            {NAV_LINKS.map((l) => (
-              <Link
-                key={l.label}
-                to={l.to}
-                className="eyebrow text-ink transition-colors hover:text-ash"
-              >
-                {l.label}
-              </Link>
-            ))}
-          </nav>
+  {NAV_LINKS.map((l) => (
+    <span
+      key={l.label}
+      className="eyebrow cursor-pointer text-ink transition-colors hover:text-ash"
+    >
+      {l.label}
+    </span>
+  ))}
+</nav>
         </motion.div>
 
         {/* tagline */}

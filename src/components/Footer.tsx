@@ -110,7 +110,8 @@ export default function Footer() {
               href="#"
               className="underline decoration-ash/40 underline-offset-2 hover:text-ink"
             >
-              Studio
+              Elite8 Digital
+              
             </a>
             {' '}| Sitemap &amp; Privacy
           </span>

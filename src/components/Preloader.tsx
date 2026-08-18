@@ -38,7 +38,7 @@ export default function Preloader() {
             className="eyebrow mt-3"
             style={{ color: '#A8A29A' }}
           >
-            Scotland &amp; Beyond
+            India &amp; Beyond
           </motion.p>
         </motion.div>
       )}

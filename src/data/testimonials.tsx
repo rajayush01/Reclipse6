@@ -8,7 +8,7 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Thank you a million times for being part of our story in Scotland. We're just… over the moon.",
+      "Thank you a million times for being part of our story in India. We're just… over the moon.",
     body: "Aaron and I are completely, totally obsessed. We could not be happier, truly. You went so far above and beyond anything we ever dreamed of. The photos are beyond beautiful. They feel like our memories, but somehow even better. You captured the day exactly how it felt to us — the mood, the light, the feeling…. all of it. It's honestly the best gift.",
     name: "Hannah & Aaron",
     image: "https://picsum.photos/seed/hannah-aaron/600/750",

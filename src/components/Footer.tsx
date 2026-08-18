@@ -90,7 +90,7 @@ export default function Footer() {
           className="mt-16 text-center font-display text-lg italic text-ash md:text-xl"
         >
           Cinematic  &amp; wedding photography, capturing real stories
-          across Scotland
+          across India
         </motion.p>
 
         {/* bottom rule */}
@@ -102,7 +102,7 @@ export default function Footer() {
           className="flex flex-col items-center justify-between gap-2 pt-6 text-xs text-ash md:flex-row"
         >
           <span>
-            &copy; {new Date().getFullYear()} RECLIPSE | Isle of Skye, Scotland
+            &copy; {new Date().getFullYear()} RECLIPSE | India
           </span>
           <span className="flex items-center gap-1">
             Site by{' '}

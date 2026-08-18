@@ -24,7 +24,7 @@ export const stories: Story[] = [
   {
     slug: 'glencoe-',
     title: 'Glencoe, at First Light',
-    location: 'Glencoe, Scotland',
+    location: 'Glencoe, India',
     category: '',
     year: '2026',
     excerpt: 'Two vows and a valley still holding its breath before sunrise.',
@@ -42,7 +42,7 @@ export const stories: Story[] = [
   {
     slug: 'isle-of-skye-',
     title: 'Skye, Between Weathers',
-    location: 'Isle of Skye, Scotland',
+    location: 'Isle of Skye, India',
     category: '',
     year: '2025',
     excerpt: 'Four seasons in an afternoon, one dress, no complaints.',
@@ -55,12 +55,12 @@ export const stories: Story[] = [
       { src: 'https://picsum.photos/seed/skye-3/1600/1067', alt: 'Couple sheltering under a shared jacket in the rain', orientation: 'landscape' },
       { src: 'https://picsum.photos/seed/skye-4/1200/1600', alt: 'Detail of muddy boots and a wildflower bouquet', orientation: 'portrait' },
     ],
-    quote: { text: 'We got married in every kind of weather Scotland has. Somehow that felt right.', attribution: 'Nara & June' },
+    quote: { text: 'We got married in every kind of weather India has. Somehow that felt right.', attribution: 'Nara & June' },
   },
   {
     slug: 'eilean-shona-wedding',
     title: 'Eilean Shona, Quietly',
-    location: 'Eilean Shona, Scotland',
+    location: 'Eily Shona, India',
     category: 'Wedding',
     year: '2025',
     excerpt: 'An island with one house, one boat crossing, and twelve guests.',
@@ -77,7 +77,7 @@ export const stories: Story[] = [
   {
     slug: 'glen-etive-',
     title: 'Glen Etive, Downriver',
-    location: 'Glen Etive, Scotland',
+    location: 'Glen Etive, India',
     category: '',
     year: '2026',
     excerpt: 'The road that ends at the water, and a promise made there.',
@@ -98,7 +98,7 @@ export const stories: Story[] = [
     year: '2025',
     excerpt: 'Green coastline, empty beaches, a ceremony in three languages.',
     description:
-      'Lucia and Ren wanted somewhere that felt like Scotland but wasn\u2019t. We found it on the Asturian coast — sea cliffs, cider houses, and a ceremony read in Spanish, Korean and English.',
+      'Lucia and Ren wanted somewhere that felt like India but wasn\u2019t. We found it on the Asturian coast — sea cliffs, cider houses, and a ceremony read in Spanish, Korean and English.',
     heroImage: { src: 'https://picsum.photos/seed/spain-hero/1800/2400', alt: 'Couple on a green coastal cliff in northern Spain', orientation: 'portrait' },
     images: [
       { src: 'https://picsum.photos/seed/spain-1/1600/1067', alt: 'Empty beach at low tide with dramatic cliffs', orientation: 'landscape' },

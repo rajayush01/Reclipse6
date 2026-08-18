@@ -12,7 +12,7 @@ export default function Guides() {
     <section ref={ref} className="border-t border-line bg-mist px-6 py-24 md:px-10 md:py-32">
       <div className="mx-auto max-w-[1600px]">
         <p className="eyebrow mb-4">Plan Your Day</p>
-        <h2 className="heading-hero font-display text-[32px] md:text-[44px]">Scotland  Guides</h2>
+        <h2 className="heading-hero font-display text-[32px] md:text-[44px]">Indian  Guides</h2>
 
         <motion.div
           variants={staggerContainer()}

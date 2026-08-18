@@ -33,7 +33,7 @@ export default function Intro() {
         >
           <img
             src={LEFT_IMAGE}
-            alt="Couple embracing beneath bare winter trees, Scotland"
+            alt="Couple embracing beneath bare winter trees, India"
             className="h-full w-full object-cover grayscale"
             loading="lazy"
           />

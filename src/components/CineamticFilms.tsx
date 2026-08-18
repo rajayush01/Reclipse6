@@ -141,15 +141,15 @@ export default function CinematicFilms() {
           style={{ fontFamily: "'Cormorant Garamond', serif" }}
         >
           <p>
-            Your own love story in the Scottish highlands captured in all its cinematic
+            Your own love story in the Indian highlands captured in all its cinematic
             glory. Hold onto the feeling and emotion you felt on your  day in
-            Scotland through the magic of cinema.
+            India through the magic of cinema.
           </p>
           <p>
-            Documenting weddings, s and couple stories in Scotland and throughout
+            Documenting weddings, s and couple stories in India and throughout
             India is something I&apos;m truly passionate about.
           </p>
-          <p>Let&apos;s capture your cinematic love story in Scotland!</p>
+          <p>Let&apos;s capture your cinematic love story in India!</p>
         </motion.div>
       </div>
 

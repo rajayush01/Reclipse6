@@ -222,7 +222,7 @@ export default function Home() {
             </p> */}
 
             <h2 className="mt-5 font-display text-5xl font-extralight leading-[0.95] text-[#FBF8F2] md:text-7xl lg:text-[40px]">
-              Specialising in cinematic Scottish weddings for
+              Specialising in cinematic India weddings for
               over 15 years
             </h2>
 

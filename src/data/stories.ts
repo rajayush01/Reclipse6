@@ -66,7 +66,7 @@ export const stories: Story[] = [
     excerpt: 'An island with one house, one boat crossing, and twelve guests.',
     description:
       'Getting the flowers to the island took longer than the ceremony. Priya and Tom married in the walled garden as the tide came in around the causeway, cutting the island off exactly on cue.',
-    heroImage: { src: 'https://picsum.photos/seed/shona-hero/1800/2400', alt: 'Bride and groom in a walled garden on a private Scottish island', orientation: 'portrait' },
+    heroImage: { src: 'https://picsum.photos/seed/shona-hero/1800/2400', alt: 'Bride and groom in a walled garden on a private India island', orientation: 'portrait' },
     images: [
       { src: 'https://picsum.photos/seed/shona-1/1600/1067', alt: 'Small wooden boat crossing to the island at dawn', orientation: 'landscape' },
       { src: 'https://picsum.photos/seed/shona-2/1200/1600', alt: 'Table set for twelve under an old apple tree', orientation: 'portrait' },

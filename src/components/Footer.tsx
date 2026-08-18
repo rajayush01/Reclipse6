@@ -14,9 +14,9 @@ const NAV_LINKS = [
 ]
 
 const SOCIALS = [
-  { icon: Camera, href: 'https://instagram.com', label: 'Instagram' },
-  { icon: Play, href: 'https://youtube.com', label: 'YouTube' },
-  { icon: Share2, href: 'https://facebook.com', label: 'Facebook' },
+  { icon: Camera,label: 'Instagram' },
+  { icon: Play,label: 'YouTube' },
+  { icon: Share2,label: 'Facebook' },
 ]
 
 export default function Footer() {
@@ -111,9 +111,9 @@ export default function Footer() {
               className="underline decoration-ash/40 underline-offset-2 hover:text-ink"
             >
               Elite8 Digital
-              
+
             </a>
-            {' '}| Sitemap &amp; Privacy
+            {' '}| Sitemap 
           </span>
         </motion.div>
       </motion.div>
